@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef/stackLimit</xpath>
+        <value>
+            <stackLimit>65535</stackLimit>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/StatDef[defName="CarryingCapacity" and category="BasicsPawn"]/defaultBaseValue</xpath>
+        <value>
+            <defaultBaseValue>65535</defaultBaseValue>
+        </value>
+    </Operation>
+</Patch>

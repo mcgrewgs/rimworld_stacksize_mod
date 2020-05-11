@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>MaximizeStackSize</name>
+	<!-- The name of the mod -->
+	<author>mcgrewgs</author>
+	<!-- The mod author name, usually set to your Steam/Forum name -->
+	<url>www.anything.com</url>
+	<!-- A URL to be displayed on your mod info page(if available). Can be set to link to anything. Most link it to their Github/Workshop page/forum post. -->
+	<packageId>mcgrewgs.MaximizeStackSize</packageId>
+	<!-- Added in 1.0. Please make it human readable. Avoid acronyms where possible. -->
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<!-- Supported version lists which versions of Rimworld your mod is compatible with. If your mod doesn't break across versions, lists them all here. -->
+	<description>
+        Maximize the stack size.
+	</description>
+	<!-- Describes your mod, can be multiple lines long. -->
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+	<!-- Lists the mods which should be loaded before your mod. Helps ensure your dependencies are loaded in first. -->
+</ModMetaData>
