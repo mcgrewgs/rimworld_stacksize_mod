@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- Data/Core/Defs/ResearchProjectDefs/ResearchProjects_1.xml -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef/baseCost</xpath>
+        <value>
+            <baseCost>1</baseCost>
+        </value>
+    </Operation>
+</Patch>

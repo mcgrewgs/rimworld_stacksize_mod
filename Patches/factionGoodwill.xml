@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- Data/Core/Defs/FactionDefs/Factions_Misc.xml -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/FactionDef/goodwillDailyGain</xpath>
+        <value>
+            <goodwillDailyGain>5</goodwillDailyGain>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/FactionDef/goodwillDailyFall</xpath>
+        <value>
+            <goodwillDailyFall>0</goodwillDailyFall>
+        </value>
+    </Operation>
+</Patch>

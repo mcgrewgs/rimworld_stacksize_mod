@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- Data/Core/Defs/Stats/Stats_Pawns_WorkGeneral.xml -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/StatDef[defName="PlantWorkSpeed" and category="PawnWork"]/skillNeedFactors/li/bonusPerLevel</xpath>
+        <value>
+            <bonusPerLevel>11.5</bonusPerLevel>
+        </value>
+    </Operation>
+</Patch>
