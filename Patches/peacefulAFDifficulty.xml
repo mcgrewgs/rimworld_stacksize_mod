@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!-- Data/Core/Defs/Misc/DifficultyDefs/Difficulties.xml -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/threatScale</xpath>
+        <value>
+            <threatScale>0.01</threatScale>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/colonistMoodOffset</xpath>
+        <value>
+            <colonistMoodOffset>30</colonistMoodOffset>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/cropYieldFactor</xpath>
+        <value>
+            <cropYieldFactor>2.0</cropYieldFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/mineYieldFactor</xpath>
+        <value>
+            <mineYieldFactor>2.0</mineYieldFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/researchSpeedFactor</xpath>
+        <value>
+            <researchSpeedFactor>2.0</researchSpeedFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/diseaseIntervalFactor</xpath>
+        <value>
+            <diseaseIntervalFactor>10</diseaseIntervalFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/playerPawnInfectionChanceFactor</xpath>
+        <value>
+            <playerPawnInfectionChanceFactor>0</playerPawnInfectionChanceFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/manhunterChanceOnDamageFactor</xpath>
+        <value>
+            <manhunterChanceOnDamageFactor>0</manhunterChanceOnDamageFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/foodPoisonChanceFactor</xpath>
+        <value>
+            <foodPoisonChanceFactor>0</foodPoisonChanceFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/maintenanceCostFactor</xpath>
+        <value>
+            <maintenanceCostFactor>0</maintenanceCostFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/enemyDeathOnDownedChanceFactor</xpath>
+        <value>
+            <enemyDeathOnDownedChanceFactor>0</enemyDeathOnDownedChanceFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/DifficultyDef[defName="Peaceful"]/questRewardValueFactor</xpath>
+        <value>
+            <questRewardValueFactor>100</questRewardValueFactor>
+        </value>
+    </Operation>
+</Patch>
