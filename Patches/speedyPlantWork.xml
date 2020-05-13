@@ -7,4 +7,12 @@
             <bonusPerLevel>11.5</bonusPerLevel>
         </value>
     </Operation>
+
+    <!-- Data/Core/Defs/Stats/Stats_Pawns_General.xml -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/StatDef[defName="ForagedNutritionPerDay" and category="BasicsPawn"]/skillNeedOffsets/li/bonusPerLevel</xpath>
+        <value>
+            <bonusPerLevel>1</bonusPerLevel>
+        </value>
+    </Operation>
 </Patch>
