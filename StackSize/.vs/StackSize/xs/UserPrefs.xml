@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PawnColumnWorker_EditSkills.cs">
     <Files>
-      <File FileName="PawnColumnWorker_EditSkills.cs" Line="289" Column="22" />
-      <File FileName="PawnTableDef_EditSkills.cs" Line="43" Column="1" />
-      <File FileName="MyClass.cs" Line="126" Column="1" />
+      <File FileName="PawnColumnWorker_EditSkills.cs" Line="8" Column="1" />
+      <File FileName="PawnTableDef_EditSkills.cs" Line="11" Column="24" />
+      <File FileName="MyClass.cs" Line="42" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
             <Node name="StackSize" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="MyClass.cs" selected="True" />
+              <Node name="PawnColumnWorker_EditSkills.cs" selected="True" />
             </Node>
           </Node>
         </State>

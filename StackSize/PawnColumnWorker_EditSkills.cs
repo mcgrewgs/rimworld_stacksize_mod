@@ -26,8 +26,6 @@ namespace StackSize
         {
         }
 
-
-
         private static void DrawWorkBoxBackground(Rect rect, Pawn p, SkillDef skillDef)
         {
             float num = p.skills.GetSkill(skillDef).Level;

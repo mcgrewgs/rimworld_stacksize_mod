@@ -40,10 +40,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PawnColumnWorker_EditSkills.cs" />
     <Compile Include="PawnTableDef_EditSkills.cs" />
+    <Compile Include="MainTabWindow_EditSkills.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
