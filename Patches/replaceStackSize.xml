@@ -2,7 +2,7 @@
 <Patch>
     <!-- Data/Core/Defs/ThingDefs_Items/ -->
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef/stackLimit</xpath>
+        <xpath>/Defs/ThingDef[stackLimit!=1]/stackLimit</xpath>
         <value>
             <stackLimit>65535</stackLimit>
         </value>
